@@ -17,9 +17,6 @@
               <a class="navbar" href="./home.html">Home</a>
             </li>
             <li>
-              <a class="navbar" href="./author.html">Authors</a>
-            </li>
-            <li>
               <a class="navbar" href="./category.html">Categories</a>
             </li>
             <li>
@@ -29,12 +26,19 @@
         </nav>
       </div>
 
-      <ul>
-        <li>Rants</li>
-        <li>Reviews</li>
+      <ul class="category-list">
+        <li>
+          <a href="#">
+            Rants
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Reviews
+          </a>
+        </li>
         <form action="/author.html" method="POST" class="author-input">
-          <label for="new-hashtags__name-input">New category name:</label>
-          <input type="text" name="author-" />
+          <input type="text" placeholder="Enter A New Category" />
 
           <button type="submit">Submit</button>
         </form>

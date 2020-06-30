@@ -8,16 +8,13 @@
     <title>Riley Blogkins</title>
   </head>
   <body>
-    <!-- <header><h1>Riley Blogkins</h1></header> -->
     <div class="navigation">
       <nav>
         <ul>
           <li>
             <a class="navbar" href="./home.html">Home</a>
           </li>
-          <li>
-            <a class="navbar" href="./author.html">Authors</a>
-          </li>
+
           <li>
             <a class="navbar" href="./category.html">Categories</a>
           </li>
@@ -27,22 +24,39 @@
         </ul>
       </nav>
     </div>
+
+    <div class="new-post-form">
+      <form>
+        <input type="text" placeholder="Your name.." />
+
+        <label class="label"><strong> Categories</strong></label>
+        <select id="category-select">
+          <option class="option">Review</option>
+          <option class="option">Rant</option>
+        </select>
+
+        <input class="new-post" placeholder="Enter Your Post Here" />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
     <div class="blog-card">
       <div class="meta">
         <ul class="details">
           <li class="date">6.24.20</li>
           <li class="tags">
             <ul>
-              <li><a href="#">rant</a></li>
-              <li><a href="#">review</a></li>
-              <li><a href="#">columbus</a></li>
+              <li><a href="#">#rant</a></li>
+              <li><a href="#">#review</a></li>
+              <li><a href="#">#columbus</a></li>
             </ul>
           </li>
         </ul>
       </div>
       <div class="description">
         <h1>My First Rant</h1>
-        <h2>a rant by Riley...</h2>
+        <h2 class="author">Riley Adkins</h2>
         <p>
           My first blog. Not sure what to say or talk about…. But here we go! I
           am about halfway through the We Can Code IT bootcamp and I’m having
@@ -51,26 +65,24 @@
           Not sure if that is what I should be focusing on though. I am enjoying
           the change and learning and I hope my blog is okay!!
         </p>
-        <p class="read-more">
-          <a href="#">Read More</a>
-        </p>
       </div>
     </div>
+
     <div class="blog-card">
       <div class="meta">
         <ul class="details">
-          <li class="date">July. 15, 2015</li>
+          <li class="date">6.15.20</li>
           <li class="tags">
             <ul>
-              <li><a href="#">review</a></li>
-              <li><a href="#">columbus</a></li>
+              <li><a href="#">#review</a></li>
+              <li><a href="#">#columbus</a></li>
             </ul>
           </li>
         </ul>
       </div>
       <div class="description">
         <h1>Hot Chicken Takeover Review</h1>
-        <h2>Let's Talk Chicken!</h2>
+        <h2 class="author">Blaise Herritt</h2>
         <p>
           I don't come to Columbus often and was only here for the weekend but
           I'm so glad my friends chose this place to have brunch. I tried the
@@ -82,98 +94,7 @@
           for spicy so it was perfect. But beware if you're not a spicy fan.
           Even the cold is really flavorful but has a little kick.
         </p>
-        <p class="read-more">
-          <a href="#">Read More</a>
-        </p>
       </div>
     </div>
   </body>
 </html>
-
-<!-- <div class="container"> -->
-<!-- <header>
-        <h1>
-          Riley Blogkins
-        </h1>
-      </header>
-      <main>
-        <div class="navigation">
-          <nav>
-            <ul>
-              <li>
-                <a class="navbar" href="./home.html">Home</a>
-              </li>
-              <li>
-                <a class="navbar" href="./author.html">Authors</a>
-              </li>
-              <li>
-                <a class="navbar" href="./category.html">Categories</a>
-              </li>
-              <li>
-                <a class="navbar" href="./hashtag.html">Hashtags</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="blog-card">
-          <ul class="details">
-            <li class="author">Riley Adkins</li>
-            <li class="date">6.24.20</li>
-            <ul>
-              <li><a href="#">Rant</a></li>
-              <li><a href="#">Review</a></li>
-              <li><a href="#">Columbus</a></li>
-            </ul>
-          </ul>
-          <div class="description">
-            <h1>My First Rant</h1>
-            <h2>Riley Adkins</h2>
-            <p>
-              My first blog. Not sure what to say or talk about…. But here we
-              go! I am about halfway through the We Can Code IT boot-camp and
-              I’m having some fun! I feel like it is deff a challenge for me. I
-              have been in school for a while. I am really liking the CSS and
-              front-end stuff. Not sure if that is what I should be focusing on
-              though. I am enjoying the change and learning and I hope my blog
-              is okay!!
-            </p>
-          </div>
-        </div>
-        <div class="post2">
-          <h2>Hot Chicken Takeover Review</h2>
-          <h3><strong>7.20.19</strong></h3>
-          <h3>Blaise Herritt</h3>
-          <p>
-            I don't come to Columbus often and was only here for the weekend but
-            I'm so glad my friends chose this place to have brunch. I tried the
-            chicken sandwich and the reason it's called "hot" chicken takeover
-            is because you can choose your heat level. I tried the hot which is
-            3 out 4 on the heat scale. I don't usually get spicy as restaurants
-            claim it's hot when it's usually not but holy cow! I took two bites
-            and my mouth was on fire. Of course, I like to suffer a little bit
-            when I ask for spicy so it was perfect. But beware if you're not a
-            spicy fan. Even the cold is really flavorful but has a little kick.
-          </p>
-          <div class="post3">
-            <h2>Salon Review</h2>
-            <h3><strong>4.20.19</strong></h3>
-            <p>
-              There are several things I do not like about this salon. First of
-              which is the cancellation policy. You have to cancel 72 hours in
-              advance or you get charged a premium. I personally think that is
-              excessive because sometimes things come up and plans change. I
-              think a 48 hour policy is much more reasonable. The second thing I
-              do not like is the filming/photography policy. According to their
-              website the moment you walk in you consent to have photos and
-              video taken of you. They can use those images/videos in branding,
-              social media posts, and on their websites without you knowing.
-              They state on their website: "you also waive any right to inspect
-              or approve any photo, video, or audio recording taken by staff at
-              any the salon." That just sounds a little sketchy to me and
-              invasive. Because of their strict cancellation policy and their
-              film and photography policy I will not be returning.
-            </p>
-          </div>
-        </div>
-      </main>
-    </div> -->
